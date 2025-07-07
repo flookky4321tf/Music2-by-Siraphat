@@ -9,10 +9,10 @@ module.exports = {
     options: [],
     run: async (client, interaction, lang) => {
         try {
-            const supportServerLink = "https://discord.gg/xQF9f9yUEM";
-            const githubLink = "https://github.com/GlaceYT";
-            const replitLink = "https://replit.com/@GlaceYT";
-            const youtubeLink = "https://www.youtube.com/@GlaceYT";
+            const supportServerLink = "https://discord.gg/8xk9Q72dzB";
+            const instragramLink = "https://www.instagram.com/siraphat.tf19";
+            const facebookLink = "https://www.facebook.com/siraphatthipphawong";
+            const spotifyLink = "https://open.spotify.com/user/31ki4543rfa7tlzazbfavpm5jlre?si=6QOHPpSBTOWqCXlOdq_NIg";
 
             const embed = new EmbedBuilder()
                 .setColor('#b300ff')
@@ -23,11 +23,11 @@ module.exports = {
                 })
                 .setDescription(lang.support.embed.description
                     .replace("{supportServerLink}", supportServerLink)
-                    .replace("{githubLink}", githubLink)
-                    .replace("{replitLink}", replitLink)
-                    .replace("{youtubeLink}", youtubeLink)
+                    .replace("{instagramLink}", instagramLink)
+                    .replace("{facebookLink}", facebookLink)
+                    .replace("{spotifyLink}", spotifyLink)
                 )
-                .setImage('https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=663956f7&is=66380577&hm=3b3c19a11adcb979517a133f2907f671305d23f1f5092cf7df043e6d5cab07bc&')
+                .setImage('https://cdn.discordapp.com/attachments/1389027929509466254/1391776769174147232/5d465c3c06bfef37debc075ad41a04a1.gif?ex=686d209f&is=686bcf1f&hm=5126426707c010a5abf57b6096706a5cc2b674a9eaa8cc44119aba34e4e8b4d5&')
                 .setTimestamp();
 
             await interaction.reply({ embeds: [embed] });
