@@ -1,5 +1,5 @@
 {
-  "name": "prime-music",
+  "name": "Siraphat",
   "version": "1.2",
   "description": "Music Bot",
   "main": "index.js",
@@ -20,7 +20,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "SSRR",
+  "author": "Siraphat",
   "license": "XX",
   "engines": {
     "node": "20.x"
